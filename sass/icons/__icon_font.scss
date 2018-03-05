@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'hy-icons';
-  src: url('../fonts/hy-icons.eot');
-  src: url('../fonts/hy-icons.eot?#iefix') format('eot'), url('../fonts/hy-icons.woff') format('woff'), url('../fonts/hy-icons.ttf') format('truetype');
+  src: url('#{$styleguide-root-path}/fonts/hy-icons.eot');
+  src: url('#{$styleguide-root-path}/fonts/hy-icons.eot?#iefix') format('eot'), url('#{$styleguide-root-path}/fonts/hy-icons.woff') format('woff'), url('#{$styleguide-root-path}/fonts/hy-icons.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }

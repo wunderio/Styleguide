@@ -10,6 +10,9 @@
 // Generate normalize.css.
 @import "normalize";
 
+// Define default styleguide path for relative url() values.
+$styleguide-root-path: '..';
+
 @import "variables/**/*";
 @import "mixins/**/*";
 @import "icons/_icons.scss";

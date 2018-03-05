@@ -12,7 +12,7 @@
 */
 
 .avatar-image {
-  background: url("../assets/svg/avatar.svg") no-repeat center center;
+  background: url("#{$styleguide-root-path}/assets/svg/avatar.svg") no-repeat center center;
   background-size: 65% 65%;
   color: white;
   display: inline-block;
