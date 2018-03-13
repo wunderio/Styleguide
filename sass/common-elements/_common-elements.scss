@@ -1,11 +1,7 @@
 html {
   @include font-family-main;
   box-sizing: border-box;
-  font-size: $base-font-size-mobile;
-
-  @include breakpoint($small) {
-   font-size: $base-font-size;
-  }
+  font-size: $root-font-size;
 }
 
 *, *:before, *:after {
@@ -32,6 +28,11 @@ html {
 
 body {
   color: $lightgray;
+  font-size: $base-font-size-mobile;
+
+  @include breakpoint($small) {
+   font-size: $base-font-size;
+  }
 }
 
 img {

@@ -2,11 +2,11 @@
 @mixin font-size($font-size, $desired-mobile-size: "") {
   @include breakpoint($mobile-only) {
     @if $desired-mobile-size != "" {
-      font-size: ($desired-mobile-size / $base-font-size-mobile)*1rem;
+      font-size: ($desired-mobile-size / $base-font-size-mobile-px)*1rem;
     }
   }
 
-  font-size: ($font-size / $base-font-size)*1rem;
+  font-size: ($font-size / $base-font-size-px)*1rem;
 }
 
 // Fonts
