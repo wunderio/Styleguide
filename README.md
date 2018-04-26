@@ -1,4 +1,8 @@
-# University of Helsinki Style Guide #
+# FORK: University of Helsinki Style Guide #
+
+## Fork ##
+
+The UniversityofHelsinki/Opetustila-esittely project required some agile accessibility changes to the original style guide during development. These changes can be found in the spaces-a11y branch.
 
 ## Implementing the style guide in a project ##
 
